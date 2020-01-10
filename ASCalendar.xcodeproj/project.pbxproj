@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4167DB0B23C8768D00F5FB15 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4167DB0A23C8768D00F5FB15 /* Service.swift */; };
 		8AB8508923C279FB00BED14E /* ASCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB8507F23C279FA00BED14E /* ASCalendar.framework */; };
 		8AB8508E23C279FB00BED14E /* ASCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB8508D23C279FB00BED14E /* ASCalendarTests.swift */; };
 		8AB8509023C279FB00BED14E /* ASCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB8508223C279FA00BED14E /* ASCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4167DB0A23C8768D00F5FB15 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		8AB8507F23C279FA00BED14E /* ASCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB8508223C279FA00BED14E /* ASCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASCalendar.h; sourceTree = "<group>"; };
 		8AB8508323C279FA00BED14E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 			children = (
 				8AB8508223C279FA00BED14E /* ASCalendar.h */,
 				8AB8508323C279FA00BED14E /* Info.plist */,
+				4167DB0A23C8768D00F5FB15 /* Service.swift */,
 			);
 			path = ASCalendar;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					8AB8507E23C279FA00BED14E = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1120;
 					};
 					8AB8508723C279FB00BED14E = {
 						CreatedOnToolsVersion = 11.3;
@@ -195,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4167DB0B23C8768D00F5FB15 /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +345,7 @@
 		8AB8509423C279FB00BED14E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = YKG5C7DUKF;
@@ -356,6 +362,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.smirnov-Development.ASCalendar";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +371,7 @@
 		8AB8509523C279FB00BED14E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = YKG5C7DUKF;
@@ -388,6 +396,7 @@
 		8AB8509723C279FB00BED14E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YKG5C7DUKF;
 				INFOPLIST_FILE = ASCalendarTests/Info.plist;
@@ -406,6 +415,7 @@
 		8AB8509823C279FB00BED14E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YKG5C7DUKF;
 				INFOPLIST_FILE = ASCalendarTests/Info.plist;
