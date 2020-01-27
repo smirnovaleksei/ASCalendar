@@ -11,6 +11,24 @@
 		8AB8508923C279FB00BED14E /* ASCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB8507F23C279FA00BED14E /* ASCalendar.framework */; };
 		8AB8508E23C279FB00BED14E /* ASCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB8508D23C279FB00BED14E /* ASCalendarTests.swift */; };
 		8AB8509023C279FB00BED14E /* ASCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB8508223C279FA00BED14E /* ASCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA1738EF23DF6612001FCA95 /* DefaultCalendarConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1738D523DF6612001FCA95 /* DefaultCalendarConfiguration.swift */; };
+		CA1738F023DF6612001FCA95 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1738D723DF6612001FCA95 /* View.swift */; };
+		CA1738F123DF6612001FCA95 /* EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1738D823DF6612001FCA95 /* EnvironmentValues.swift */; };
+		CA1738F223DF6612001FCA95 /* ASDateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1738DA23DF6612001FCA95 /* ASDateManager.swift */; };
+		CA1738F323DF6612001FCA95 /* DatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1738DC23DF6612001FCA95 /* DatesView.swift */; };
+		CA1738F423DF6612001FCA95 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1738DD23DF6612001FCA95 /* MonthView.swift */; };
+		CA1738F523DF6612001FCA95 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1738DE23DF6612001FCA95 /* Header.swift */; };
+		CA1738F623DF6612001FCA95 /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1738DF23DF6612001FCA95 /* DateView.swift */; };
+		CA1738F723DF6612001FCA95 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1738E023DF6612001FCA95 /* CalendarView.swift */; };
+		CA1738F823DF6612001FCA95 /* PrimitiveStyleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1738E223DF6612001FCA95 /* PrimitiveStyleConfiguration.swift */; };
+		CA1738F923DF6612001FCA95 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1738E523DF6612001FCA95 /* GridView.swift */; };
+		CA1738FA23DF6612001FCA95 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1738E723DF6612001FCA95 /* Date.swift */; };
+		CA1738FB23DF6612001FCA95 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1738E823DF6612001FCA95 /* Collection.swift */; };
+		CA1738FC23DF6612001FCA95 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1738E923DF6612001FCA95 /* Int.swift */; };
+		CA1738FD23DF6612001FCA95 /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1738EA23DF6612001FCA95 /* CGFloat.swift */; };
+		CA1738FE23DF6612001FCA95 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1738EC23DF6612001FCA95 /* Section.swift */; };
+		CA1738FF23DF6612001FCA95 /* DateState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1738ED23DF6612001FCA95 /* DateState.swift */; };
+		CA17390023DF6612001FCA95 /* ASDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1738EE23DF6612001FCA95 /* ASDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +49,24 @@
 		8AB8508823C279FB00BED14E /* ASCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB8508D23C279FB00BED14E /* ASCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASCalendarTests.swift; sourceTree = "<group>"; };
 		8AB8508F23C279FB00BED14E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA1738D523DF6612001FCA95 /* DefaultCalendarConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultCalendarConfiguration.swift; sourceTree = "<group>"; };
+		CA1738D723DF6612001FCA95 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		CA1738D823DF6612001FCA95 /* EnvironmentValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
+		CA1738DA23DF6612001FCA95 /* ASDateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASDateManager.swift; sourceTree = "<group>"; };
+		CA1738DC23DF6612001FCA95 /* DatesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatesView.swift; sourceTree = "<group>"; };
+		CA1738DD23DF6612001FCA95 /* MonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
+		CA1738DE23DF6612001FCA95 /* Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		CA1738DF23DF6612001FCA95 /* DateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		CA1738E023DF6612001FCA95 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		CA1738E223DF6612001FCA95 /* PrimitiveStyleConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimitiveStyleConfiguration.swift; sourceTree = "<group>"; };
+		CA1738E523DF6612001FCA95 /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		CA1738E723DF6612001FCA95 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		CA1738E823DF6612001FCA95 /* Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		CA1738E923DF6612001FCA95 /* Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		CA1738EA23DF6612001FCA95 /* CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
+		CA1738EC23DF6612001FCA95 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		CA1738ED23DF6612001FCA95 /* DateState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateState.swift; sourceTree = "<group>"; };
+		CA1738EE23DF6612001FCA95 /* ASDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +109,7 @@
 		8AB8508123C279FA00BED14E /* ASCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				CA1738D223DF6612001FCA95 /* Source */,
 				8AB8508223C279FA00BED14E /* ASCalendar.h */,
 				8AB8508323C279FA00BED14E /* Info.plist */,
 				4167DB0A23C8768D00F5FB15 /* Service.swift */,
@@ -87,6 +124,111 @@
 				8AB8508F23C279FB00BED14E /* Info.plist */,
 			);
 			path = ASCalendarTests;
+			sourceTree = "<group>";
+		};
+		CA1738D223DF6612001FCA95 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CA1738D323DF6612001FCA95 /* Calendar */,
+				CA1738E323DF6612001FCA95 /* Common */,
+				CA1738EB23DF6612001FCA95 /* Model */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		CA1738D323DF6612001FCA95 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				CA1738D423DF6612001FCA95 /* Style */,
+				CA1738D623DF6612001FCA95 /* Extensions */,
+				CA1738D923DF6612001FCA95 /* Manager */,
+				CA1738DB23DF6612001FCA95 /* Views */,
+				CA1738E123DF6612001FCA95 /* Protocols */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		CA1738D423DF6612001FCA95 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				CA1738D523DF6612001FCA95 /* DefaultCalendarConfiguration.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		CA1738D623DF6612001FCA95 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CA1738D723DF6612001FCA95 /* View.swift */,
+				CA1738D823DF6612001FCA95 /* EnvironmentValues.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CA1738D923DF6612001FCA95 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CA1738DA23DF6612001FCA95 /* ASDateManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		CA1738DB23DF6612001FCA95 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA1738DC23DF6612001FCA95 /* DatesView.swift */,
+				CA1738DD23DF6612001FCA95 /* MonthView.swift */,
+				CA1738DE23DF6612001FCA95 /* Header.swift */,
+				CA1738DF23DF6612001FCA95 /* DateView.swift */,
+				CA1738E023DF6612001FCA95 /* CalendarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CA1738E123DF6612001FCA95 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CA1738E223DF6612001FCA95 /* PrimitiveStyleConfiguration.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		CA1738E323DF6612001FCA95 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CA1738E423DF6612001FCA95 /* UI */,
+				CA1738E623DF6612001FCA95 /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CA1738E423DF6612001FCA95 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CA1738E523DF6612001FCA95 /* GridView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CA1738E623DF6612001FCA95 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CA1738E723DF6612001FCA95 /* Date.swift */,
+				CA1738E823DF6612001FCA95 /* Collection.swift */,
+				CA1738E923DF6612001FCA95 /* Int.swift */,
+				CA1738EA23DF6612001FCA95 /* CGFloat.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CA1738EB23DF6612001FCA95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA1738EC23DF6612001FCA95 /* Section.swift */,
+				CA1738ED23DF6612001FCA95 /* DateState.swift */,
+				CA1738EE23DF6612001FCA95 /* ASDate.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +341,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA1738FE23DF6612001FCA95 /* Section.swift in Sources */,
+				CA1738F723DF6612001FCA95 /* CalendarView.swift in Sources */,
+				CA1738F523DF6612001FCA95 /* Header.swift in Sources */,
+				CA1738F323DF6612001FCA95 /* DatesView.swift in Sources */,
 				4167DB0B23C8768D00F5FB15 /* Service.swift in Sources */,
+				CA1738EF23DF6612001FCA95 /* DefaultCalendarConfiguration.swift in Sources */,
+				CA1738FB23DF6612001FCA95 /* Collection.swift in Sources */,
+				CA1738FF23DF6612001FCA95 /* DateState.swift in Sources */,
+				CA1738F223DF6612001FCA95 /* ASDateManager.swift in Sources */,
+				CA17390023DF6612001FCA95 /* ASDate.swift in Sources */,
+				CA1738F823DF6612001FCA95 /* PrimitiveStyleConfiguration.swift in Sources */,
+				CA1738FD23DF6612001FCA95 /* CGFloat.swift in Sources */,
+				CA1738F023DF6612001FCA95 /* View.swift in Sources */,
+				CA1738F623DF6612001FCA95 /* DateView.swift in Sources */,
+				CA1738F123DF6612001FCA95 /* EnvironmentValues.swift in Sources */,
+				CA1738F923DF6612001FCA95 /* GridView.swift in Sources */,
+				CA1738FC23DF6612001FCA95 /* Int.swift in Sources */,
+				CA1738FA23DF6612001FCA95 /* Date.swift in Sources */,
+				CA1738F423DF6612001FCA95 /* MonthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
