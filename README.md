@@ -1,8 +1,7 @@
 # ASCalendar
 The new calendar pod for SwiftUI projects!
 
-https://github.com/smirnovaleksei/ASCalendar/blob/master/calendar.gif?raw=true
-
+![](https://github.com/smirnovaleksei/ASCalendar/blob/master/video_presentation.mp4)
 ### iOS version 
 13.0<
 
