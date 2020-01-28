@@ -13,6 +13,7 @@
 		41BC0BD423E0440100291E9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41BC0BD323E0440100291E9F /* Assets.xcassets */; };
 		41BC0BD723E0440100291E9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41BC0BD623E0440100291E9F /* Preview Assets.xcassets */; };
 		41BC0BDA23E0440100291E9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41BC0BD823E0440100291E9F /* LaunchScreen.storyboard */; };
+		41BC0BE223E0452500291E9F /* MyCalendarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BC0BE123E0452500291E9F /* MyCalendarStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		41BC0BD623E0440100291E9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		41BC0BD923E0440100291E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41BC0BDB23E0440100291E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41BC0BE123E0452500291E9F /* MyCalendarStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCalendarStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				41BC0BCD23E0440000291E9F /* AppDelegate.swift */,
 				41BC0BCF23E0440000291E9F /* SceneDelegate.swift */,
 				41BC0BD123E0440000291E9F /* ContentView.swift */,
+				41BC0BE123E0452500291E9F /* MyCalendarStyle.swift */,
 				41BC0BD323E0440100291E9F /* Assets.xcassets */,
 				41BC0BD823E0440100291E9F /* LaunchScreen.storyboard */,
 				41BC0BDB23E0440100291E9F /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41BC0BCE23E0440000291E9F /* AppDelegate.swift in Sources */,
+				41BC0BE223E0452500291E9F /* MyCalendarStyle.swift in Sources */,
 				41BC0BD023E0440000291E9F /* SceneDelegate.swift in Sources */,
 				41BC0BD223E0440000291E9F /* ContentView.swift in Sources */,
 			);
