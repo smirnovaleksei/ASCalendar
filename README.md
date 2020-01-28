@@ -6,7 +6,7 @@ The new calendar pod for SwiftUI projects!
 13.0<
 
 ### Instalation
-
+> pod 'ASCalendar', :git => 'https://github.com/smirnovaleksei/ASCalendar.git'
 ### Usage
 
 ### License
