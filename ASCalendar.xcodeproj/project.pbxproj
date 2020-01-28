@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4167DB0B23C8768D00F5FB15 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4167DB0A23C8768D00F5FB15 /* Service.swift */; };
 		8AB8508923C279FB00BED14E /* ASCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB8507F23C279FA00BED14E /* ASCalendar.framework */; };
 		8AB8508E23C279FB00BED14E /* ASCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB8508D23C279FB00BED14E /* ASCalendarTests.swift */; };
 		8AB8509023C279FB00BED14E /* ASCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB8508223C279FA00BED14E /* ASCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,7 +41,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4167DB0A23C8768D00F5FB15 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		8AB8507F23C279FA00BED14E /* ASCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB8508223C279FA00BED14E /* ASCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASCalendar.h; sourceTree = "<group>"; };
 		8AB8508323C279FA00BED14E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -112,7 +110,6 @@
 				CA1738D223DF6612001FCA95 /* Source */,
 				8AB8508223C279FA00BED14E /* ASCalendar.h */,
 				8AB8508323C279FA00BED14E /* Info.plist */,
-				4167DB0A23C8768D00F5FB15 /* Service.swift */,
 			);
 			path = ASCalendar;
 			sourceTree = "<group>";
@@ -345,7 +342,6 @@
 				CA1738F723DF6612001FCA95 /* CalendarView.swift in Sources */,
 				CA1738F523DF6612001FCA95 /* Header.swift in Sources */,
 				CA1738F323DF6612001FCA95 /* DatesView.swift in Sources */,
-				4167DB0B23C8768D00F5FB15 /* Service.swift in Sources */,
 				CA1738EF23DF6612001FCA95 /* DefaultCalendarConfiguration.swift in Sources */,
 				CA1738FB23DF6612001FCA95 /* Collection.swift in Sources */,
 				CA1738FF23DF6612001FCA95 /* DateState.swift in Sources */,

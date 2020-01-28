@@ -40,17 +40,6 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
-
-  # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Specify the authors of the library, with email addresses. Email addresses
-  #  of the authors are extracted from the SCM log. E.g. $ git log. CocoaPods also
-  #  accepts just a name if you'd rather not provide an email address.
-  #
-  #  Specify a social_media_url where others can refer to, for example a twitter
-  #  profile URL.
-  #
-
   spec.author             = { "Aleksei" => "alekseiismirnovv@gmail.com" }
   # Or just: spec.author    = "Aleksei"
   # spec.authors            = { "Aleksei" => "email@address.com" }
@@ -78,7 +67,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/smirnovaleksei/ASCalendar.git", :tag => "#{spec.version}" }# :commit => "3f9346acd3f6a9cd647011f3800396cd0f5be02e" }
+  spec.source       = { :git => "https://github.com/smirnovaleksei/ASCalendar.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "ASCalendar/*.{h,m,swift}"
+  spec.source_files  = "ASCalendar/**/*.{h,m,swift}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
