@@ -2,7 +2,7 @@
 The new calendar pod for SwiftUI projects!
 
 ### iOS version 
-13.0 <
+13.0<
 
 ### Instalation
 
