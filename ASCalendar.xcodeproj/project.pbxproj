@@ -41,7 +41,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		41F169E523E0410300EE1192 /* Example */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Example; sourceTree = "<group>"; };
 		8AB8507F23C279FA00BED14E /* ASCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB8508223C279FA00BED14E /* ASCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASCalendar.h; sourceTree = "<group>"; };
 		8AB8508323C279FA00BED14E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -90,7 +89,6 @@
 		8AB8507523C279FA00BED14E = {
 			isa = PBXGroup;
 			children = (
-				41F169E523E0410300EE1192 /* Example */,
 				8AB8508123C279FA00BED14E /* ASCalendar */,
 				8AB8508C23C279FB00BED14E /* ASCalendarTests */,
 				8AB8508023C279FA00BED14E /* Products */,
