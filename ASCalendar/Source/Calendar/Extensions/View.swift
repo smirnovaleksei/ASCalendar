@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-extension View {
+public extension View {
 
     func calendarSheet(startDate: String, endDate: String, isPresented: Binding<Bool>, configuration: PrimitiveCalendarCofiguration = DefaultCalendarConfiguration(), action: @escaping (Date?, Date?) -> Void) -> some View {
         return self.sheet(isPresented: isPresented) {            

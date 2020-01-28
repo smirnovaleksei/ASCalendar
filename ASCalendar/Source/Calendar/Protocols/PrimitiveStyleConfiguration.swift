@@ -8,10 +8,10 @@
 
 import SwiftUI
 
-typealias PrimitiveCalendarCofiguration = PrimitiveSettingsConfiguration & PrimitiveStyleConfiguration
+public typealias PrimitiveCalendarCofiguration = PrimitiveSettingsConfiguration & PrimitiveStyleConfiguration
 
 
-protocol PrimitiveSettingsConfiguration {
+public protocol PrimitiveSettingsConfiguration {
     
     var calendar: Calendar { get }
        
@@ -19,7 +19,7 @@ protocol PrimitiveSettingsConfiguration {
     
 }
 
-protocol PrimitiveStyleConfiguration {
+public protocol PrimitiveStyleConfiguration {
     
     var textColor: Color { get }
     
