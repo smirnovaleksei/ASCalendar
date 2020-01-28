@@ -14,7 +14,23 @@
 		41BC0BD723E0440100291E9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41BC0BD623E0440100291E9F /* Preview Assets.xcassets */; };
 		41BC0BDA23E0440100291E9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41BC0BD823E0440100291E9F /* LaunchScreen.storyboard */; };
 		41BC0BE223E0452500291E9F /* MyCalendarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BC0BE123E0452500291E9F /* MyCalendarStyle.swift */; };
+		41BC0C0523E0477800291E9F /* ASCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BC0C0423E0477800291E9F /* ASCalendar.framework */; };
+		41BC0C0623E0477800291E9F /* ASCalendar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41BC0C0423E0477800291E9F /* ASCalendar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		41BC0C0723E0477800291E9F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				41BC0C0623E0477800291E9F /* ASCalendar.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		41BC0BCA23E0440000291E9F /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +42,7 @@
 		41BC0BD923E0440100291E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41BC0BDB23E0440100291E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41BC0BE123E0452500291E9F /* MyCalendarStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCalendarStyle.swift; sourceTree = "<group>"; };
+		41BC0C0423E0477800291E9F /* ASCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ASCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41BC0C0523E0477800291E9F /* ASCalendar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +62,7 @@
 			children = (
 				41BC0BCC23E0440000291E9F /* Example */,
 				41BC0BCB23E0440000291E9F /* Products */,
+				41BC0C0323E0477800291E9F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +97,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		41BC0C0323E0477800291E9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41BC0C0423E0477800291E9F /* ASCalendar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -88,6 +115,7 @@
 				41BC0BC623E0440000291E9F /* Sources */,
 				41BC0BC723E0440000291E9F /* Frameworks */,
 				41BC0BC823E0440000291E9F /* Resources */,
+				41BC0C0723E0477800291E9F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
