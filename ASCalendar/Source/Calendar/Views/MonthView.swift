@@ -38,10 +38,3 @@ struct MonthView: View {
     
 }
 
-//#if DEBUG
-//struct MonthView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        MonthView(manager: ASDateManager(startDate: Date(), endDate: Date()), monthName: "August", dates: [ASDate(date: Date(), associatedDate: nil)])
-//    }
-//}
-//#endif

@@ -52,11 +52,3 @@ struct CalendarView: View {
     }
     
 }
-
-//struct ContentView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        CalendarView(sections: [Section(monthName: "August", datesPerMonth: [Date()])], manager: ASDateManager())
-//    }
-//}
-
-

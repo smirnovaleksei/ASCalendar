@@ -26,11 +26,3 @@ struct Header: View {
     }
     
 }
-
-#if DEBUG
-struct Header_Previews: PreviewProvider {
-    static var previews: some View {
-        Header(title: "August")
-    }
-}
-#endif

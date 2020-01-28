@@ -38,12 +38,3 @@ struct DatesView: View {
     }
     
 }
-
-
-//struct DatesView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        DatesView(manager: ASDateManager(), dates: [Date()])
-//    }
-//}
-
-

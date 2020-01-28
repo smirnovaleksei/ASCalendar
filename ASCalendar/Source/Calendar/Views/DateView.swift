@@ -60,11 +60,3 @@ struct DateView: View {
         return ""
     }
 }
-
-//#if DEBUG
-//struct DateView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        DateView(date: ASDate(date: Date(), associatedDate: nil), style: DefaultCalendarStyle(), state: .selected)
-//    }
-//}
-//#endif
