@@ -7,57 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		41F1693323E0329C00EE1192 /* Example.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = 41F168DC23E0329C00EE1192 /* Example.xcworkspace */; };
-		41F1693423E0329C00EE1192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F168DE23E0329C00EE1192 /* Assets.xcassets */; };
-		41F1693523E0329C00EE1192 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F168E023E0329C00EE1192 /* Preview Assets.xcassets */; };
-		41F1693623E0329C00EE1192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41F168E123E0329C00EE1192 /* LaunchScreen.storyboard */; };
-		41F1693723E0329C00EE1192 /* MyCalendarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F168E323E0329C00EE1192 /* MyCalendarStyle.swift */; };
-		41F1693823E0329C00EE1192 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F168E423E0329C00EE1192 /* AppDelegate.swift */; };
-		41F1693923E0329C00EE1192 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F168E523E0329C00EE1192 /* ContentView.swift */; };
-		41F1693A23E0329C00EE1192 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41F168E623E0329C00EE1192 /* Info.plist */; };
-		41F1693B23E0329C00EE1192 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F168E723E0329C00EE1192 /* SceneDelegate.swift */; };
-		41F1693C23E0329C00EE1192 /* ASCalendar-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41F168EE23E0329C00EE1192 /* ASCalendar-Info.plist */; };
-		41F1693D23E0329C00EE1192 /* ASCalendar.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 41F168EF23E0329C00EE1192 /* ASCalendar.xcconfig */; };
-		41F1693E23E0329C00EE1192 /* ASCalendar-prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 41F168F023E0329C00EE1192 /* ASCalendar-prefix.pch */; };
-		41F1693F23E0329C00EE1192 /* ASCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F168F123E0329C00EE1192 /* ASCalendar-dummy.m */; };
-		41F1694023E0329C00EE1192 /* ASCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41F168F223E0329C00EE1192 /* ASCalendar-umbrella.h */; };
-		41F1694123E0329C00EE1192 /* Pods-Example-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41F168F623E0329C00EE1192 /* Pods-Example-acknowledgements.plist */; };
-		41F1694223E0329C00EE1192 /* Pods-Example-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41F168F723E0329C00EE1192 /* Pods-Example-Info.plist */; };
-		41F1694323E0329C00EE1192 /* Pods-Example-frameworks-Debug-output-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = 41F168F823E0329C00EE1192 /* Pods-Example-frameworks-Debug-output-files.xcfilelist */; };
-		41F1694423E0329C00EE1192 /* Pods-Example.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 41F168F923E0329C00EE1192 /* Pods-Example.debug.xcconfig */; };
-		41F1694523E0329C00EE1192 /* Pods-Example-frameworks-Debug-input-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = 41F168FA23E0329C00EE1192 /* Pods-Example-frameworks-Debug-input-files.xcfilelist */; };
-		41F1694623E0329C00EE1192 /* Pods-Example-frameworks-Release-output-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = 41F168FB23E0329C00EE1192 /* Pods-Example-frameworks-Release-output-files.xcfilelist */; };
-		41F1694723E0329C00EE1192 /* Pods-Example-frameworks-Release-input-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = 41F168FC23E0329C00EE1192 /* Pods-Example-frameworks-Release-input-files.xcfilelist */; };
-		41F1694823E0329C00EE1192 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F168FD23E0329C00EE1192 /* Pods-Example-dummy.m */; };
-		41F1694923E0329C00EE1192 /* Pods-Example-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = 41F168FE23E0329C00EE1192 /* Pods-Example-frameworks.sh */; };
-		41F1694A23E0329C00EE1192 /* Pods-Example-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 41F168FF23E0329C00EE1192 /* Pods-Example-acknowledgements.markdown */; };
-		41F1694B23E0329C00EE1192 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41F1690023E0329C00EE1192 /* Pods-Example-umbrella.h */; };
-		41F1694C23E0329C00EE1192 /* Pods-Example.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 41F1690123E0329C00EE1192 /* Pods-Example.release.xcconfig */; };
-		41F1694D23E0329C00EE1192 /* Manifest.lock in Resources */ = {isa = PBXBuildFile; fileRef = 41F1690223E0329C00EE1192 /* Manifest.lock */; };
-		41F1694E23E0329C00EE1192 /* ASCalendar.podspec.json in Resources */ = {isa = PBXBuildFile; fileRef = 41F1690423E0329C00EE1192 /* ASCalendar.podspec.json */; };
-		41F1694F23E0329C00EE1192 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 41F1690723E0329C00EE1192 /* LICENSE.md */; };
-		41F1695023E0329C00EE1192 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 41F1690823E0329C00EE1192 /* README.md */; };
-		41F1695123E0329C00EE1192 /* DefaultCalendarConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1690D23E0329C00EE1192 /* DefaultCalendarConfiguration.swift */; };
-		41F1695223E0329C00EE1192 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1690F23E0329C00EE1192 /* View.swift */; };
-		41F1695323E0329C00EE1192 /* EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1691023E0329C00EE1192 /* EnvironmentValues.swift */; };
-		41F1695423E0329C00EE1192 /* ASDateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1691223E0329C00EE1192 /* ASDateManager.swift */; };
-		41F1695523E0329C00EE1192 /* DatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1691423E0329C00EE1192 /* DatesView.swift */; };
-		41F1695623E0329C00EE1192 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1691523E0329C00EE1192 /* MonthView.swift */; };
-		41F1695723E0329C00EE1192 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1691623E0329C00EE1192 /* Header.swift */; };
-		41F1695823E0329C00EE1192 /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1691723E0329C00EE1192 /* DateView.swift */; };
-		41F1695923E0329C00EE1192 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1691823E0329C00EE1192 /* CalendarView.swift */; };
-		41F1695A23E0329C00EE1192 /* PrimitiveStyleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1691A23E0329C00EE1192 /* PrimitiveStyleConfiguration.swift */; };
-		41F1695B23E0329C00EE1192 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1691D23E0329C00EE1192 /* GridView.swift */; };
-		41F1695C23E0329C00EE1192 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1691F23E0329C00EE1192 /* Date.swift */; };
-		41F1695D23E0329C00EE1192 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1692023E0329C00EE1192 /* Collection.swift */; };
-		41F1695E23E0329C00EE1192 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1692123E0329C00EE1192 /* Int.swift */; };
-		41F1695F23E0329C00EE1192 /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1692223E0329C00EE1192 /* CGFloat.swift */; };
-		41F1696023E0329C00EE1192 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1692423E0329C00EE1192 /* Section.swift */; };
-		41F1696123E0329C00EE1192 /* DateState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1692523E0329C00EE1192 /* DateState.swift */; };
-		41F1696223E0329C00EE1192 /* ASDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1692623E0329C00EE1192 /* ASDate.swift */; };
-		41F1696323E0329C00EE1192 /* ASCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 41F1692723E0329C00EE1192 /* ASCalendar.h */; };
-		41F1696423E0329C00EE1192 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 41F1692823E0329C00EE1192 /* Podfile */; };
-		41F1696523E0329C00EE1192 /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 41F1692923E0329C00EE1192 /* Podfile.lock */; };
 		8AB8508923C279FB00BED14E /* ASCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB8507F23C279FA00BED14E /* ASCalendar.framework */; };
 		8AB8508E23C279FB00BED14E /* ASCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB8508D23C279FB00BED14E /* ASCalendarTests.swift */; };
 		8AB8509023C279FB00BED14E /* ASCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB8508223C279FA00BED14E /* ASCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -82,27 +31,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		41F1692B23E0329C00EE1192 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 41F168D923E0329C00EE1192 /* Example.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 41F168BF23E024D300EE1192;
-			remoteInfo = Example;
-		};
-		41F1692F23E0329C00EE1192 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 41F168E923E0329C00EE1192 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C60C7CE4C4FA1C36DC5E846B6A8A967D;
-			remoteInfo = ASCalendar;
-		};
-		41F1693123E0329C00EE1192 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 41F168E923E0329C00EE1192 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1F667CC0E19EAF34E5A4119E2121F585;
-			remoteInfo = "Pods-Example";
-		};
 		8AB8508A23C279FB00BED14E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8AB8507623C279FA00BED14E /* Project object */;
@@ -113,61 +41,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		41F168D923E0329C00EE1192 /* Example.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Example.xcodeproj; sourceTree = "<group>"; };
-		41F168DC23E0329C00EE1192 /* Example.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = Example.xcworkspace; sourceTree = "<group>"; };
-		41F168DE23E0329C00EE1192 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		41F168E023E0329C00EE1192 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		41F168E223E0329C00EE1192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		41F168E323E0329C00EE1192 /* MyCalendarStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCalendarStyle.swift; sourceTree = "<group>"; };
-		41F168E423E0329C00EE1192 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41F168E523E0329C00EE1192 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		41F168E623E0329C00EE1192 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		41F168E723E0329C00EE1192 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		41F168E923E0329C00EE1192 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
-		41F168EE23E0329C00EE1192 /* ASCalendar-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ASCalendar-Info.plist"; sourceTree = "<group>"; };
-		41F168EF23E0329C00EE1192 /* ASCalendar.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = ASCalendar.xcconfig; sourceTree = "<group>"; };
-		41F168F023E0329C00EE1192 /* ASCalendar-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASCalendar-prefix.pch"; sourceTree = "<group>"; };
-		41F168F123E0329C00EE1192 /* ASCalendar-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASCalendar-dummy.m"; sourceTree = "<group>"; };
-		41F168F223E0329C00EE1192 /* ASCalendar-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASCalendar-umbrella.h"; sourceTree = "<group>"; };
-		41F168F323E0329C00EE1192 /* ASCalendar.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = ASCalendar.modulemap; sourceTree = "<group>"; };
-		41F168F523E0329C00EE1192 /* Pods-Example.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
-		41F168F623E0329C00EE1192 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		41F168F723E0329C00EE1192 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
-		41F168F823E0329C00EE1192 /* Pods-Example-frameworks-Debug-output-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-Example-frameworks-Debug-output-files.xcfilelist"; sourceTree = "<group>"; };
-		41F168F923E0329C00EE1192 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		41F168FA23E0329C00EE1192 /* Pods-Example-frameworks-Debug-input-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-Example-frameworks-Debug-input-files.xcfilelist"; sourceTree = "<group>"; };
-		41F168FB23E0329C00EE1192 /* Pods-Example-frameworks-Release-output-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-Example-frameworks-Release-output-files.xcfilelist"; sourceTree = "<group>"; };
-		41F168FC23E0329C00EE1192 /* Pods-Example-frameworks-Release-input-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-Example-frameworks-Release-input-files.xcfilelist"; sourceTree = "<group>"; };
-		41F168FD23E0329C00EE1192 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		41F168FE23E0329C00EE1192 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
-		41F168FF23E0329C00EE1192 /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		41F1690023E0329C00EE1192 /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		41F1690123E0329C00EE1192 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		41F1690223E0329C00EE1192 /* Manifest.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
-		41F1690423E0329C00EE1192 /* ASCalendar.podspec.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ASCalendar.podspec.json; sourceTree = "<group>"; };
-		41F1690723E0329C00EE1192 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
-		41F1690823E0329C00EE1192 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		41F1690D23E0329C00EE1192 /* DefaultCalendarConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultCalendarConfiguration.swift; sourceTree = "<group>"; };
-		41F1690F23E0329C00EE1192 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		41F1691023E0329C00EE1192 /* EnvironmentValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
-		41F1691223E0329C00EE1192 /* ASDateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASDateManager.swift; sourceTree = "<group>"; };
-		41F1691423E0329C00EE1192 /* DatesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatesView.swift; sourceTree = "<group>"; };
-		41F1691523E0329C00EE1192 /* MonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
-		41F1691623E0329C00EE1192 /* Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
-		41F1691723E0329C00EE1192 /* DateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
-		41F1691823E0329C00EE1192 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
-		41F1691A23E0329C00EE1192 /* PrimitiveStyleConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimitiveStyleConfiguration.swift; sourceTree = "<group>"; };
-		41F1691D23E0329C00EE1192 /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
-		41F1691F23E0329C00EE1192 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
-		41F1692023E0329C00EE1192 /* Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
-		41F1692123E0329C00EE1192 /* Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
-		41F1692223E0329C00EE1192 /* CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
-		41F1692423E0329C00EE1192 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
-		41F1692523E0329C00EE1192 /* DateState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateState.swift; sourceTree = "<group>"; };
-		41F1692623E0329C00EE1192 /* ASDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASDate.swift; sourceTree = "<group>"; };
-		41F1692723E0329C00EE1192 /* ASCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCalendar.h; sourceTree = "<group>"; };
-		41F1692823E0329C00EE1192 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		41F1692923E0329C00EE1192 /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
 		8AB8507F23C279FA00BED14E /* ASCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB8508223C279FA00BED14E /* ASCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASCalendar.h; sourceTree = "<group>"; };
 		8AB8508323C279FA00BED14E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -213,257 +86,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		41F168D823E0329C00EE1192 /* Example */ = {
-			isa = PBXGroup;
-			children = (
-				41F168D923E0329C00EE1192 /* Example.xcodeproj */,
-				41F168DC23E0329C00EE1192 /* Example.xcworkspace */,
-				41F168DD23E0329C00EE1192 /* Example */,
-				41F168E823E0329C00EE1192 /* Pods */,
-				41F1692823E0329C00EE1192 /* Podfile */,
-				41F1692923E0329C00EE1192 /* Podfile.lock */,
-			);
-			path = Example;
-			sourceTree = "<group>";
-		};
-		41F168DA23E0329C00EE1192 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				41F1692C23E0329C00EE1192 /* Example.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		41F168DD23E0329C00EE1192 /* Example */ = {
-			isa = PBXGroup;
-			children = (
-				41F168DE23E0329C00EE1192 /* Assets.xcassets */,
-				41F168DF23E0329C00EE1192 /* Preview Content */,
-				41F168E123E0329C00EE1192 /* LaunchScreen.storyboard */,
-				41F168E323E0329C00EE1192 /* MyCalendarStyle.swift */,
-				41F168E423E0329C00EE1192 /* AppDelegate.swift */,
-				41F168E523E0329C00EE1192 /* ContentView.swift */,
-				41F168E623E0329C00EE1192 /* Info.plist */,
-				41F168E723E0329C00EE1192 /* SceneDelegate.swift */,
-			);
-			path = Example;
-			sourceTree = "<group>";
-		};
-		41F168DF23E0329C00EE1192 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				41F168E023E0329C00EE1192 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		41F168E823E0329C00EE1192 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				41F168E923E0329C00EE1192 /* Pods.xcodeproj */,
-				41F168EC23E0329C00EE1192 /* Target Support Files */,
-				41F1690223E0329C00EE1192 /* Manifest.lock */,
-				41F1690323E0329C00EE1192 /* Local Podspecs */,
-				41F1690523E0329C00EE1192 /* Headers */,
-				41F1690623E0329C00EE1192 /* ASCalendar */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		41F168EA23E0329C00EE1192 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				41F1693023E0329C00EE1192 /* ASCalendar.framework */,
-				41F1693223E0329C00EE1192 /* Pods_Example.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		41F168EC23E0329C00EE1192 /* Target Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				41F168ED23E0329C00EE1192 /* ASCalendar */,
-				41F168F423E0329C00EE1192 /* Pods-Example */,
-			);
-			path = "Target Support Files";
-			sourceTree = "<group>";
-		};
-		41F168ED23E0329C00EE1192 /* ASCalendar */ = {
-			isa = PBXGroup;
-			children = (
-				41F168EE23E0329C00EE1192 /* ASCalendar-Info.plist */,
-				41F168EF23E0329C00EE1192 /* ASCalendar.xcconfig */,
-				41F168F023E0329C00EE1192 /* ASCalendar-prefix.pch */,
-				41F168F123E0329C00EE1192 /* ASCalendar-dummy.m */,
-				41F168F223E0329C00EE1192 /* ASCalendar-umbrella.h */,
-				41F168F323E0329C00EE1192 /* ASCalendar.modulemap */,
-			);
-			path = ASCalendar;
-			sourceTree = "<group>";
-		};
-		41F168F423E0329C00EE1192 /* Pods-Example */ = {
-			isa = PBXGroup;
-			children = (
-				41F168F523E0329C00EE1192 /* Pods-Example.modulemap */,
-				41F168F623E0329C00EE1192 /* Pods-Example-acknowledgements.plist */,
-				41F168F723E0329C00EE1192 /* Pods-Example-Info.plist */,
-				41F168F823E0329C00EE1192 /* Pods-Example-frameworks-Debug-output-files.xcfilelist */,
-				41F168F923E0329C00EE1192 /* Pods-Example.debug.xcconfig */,
-				41F168FA23E0329C00EE1192 /* Pods-Example-frameworks-Debug-input-files.xcfilelist */,
-				41F168FB23E0329C00EE1192 /* Pods-Example-frameworks-Release-output-files.xcfilelist */,
-				41F168FC23E0329C00EE1192 /* Pods-Example-frameworks-Release-input-files.xcfilelist */,
-				41F168FD23E0329C00EE1192 /* Pods-Example-dummy.m */,
-				41F168FE23E0329C00EE1192 /* Pods-Example-frameworks.sh */,
-				41F168FF23E0329C00EE1192 /* Pods-Example-acknowledgements.markdown */,
-				41F1690023E0329C00EE1192 /* Pods-Example-umbrella.h */,
-				41F1690123E0329C00EE1192 /* Pods-Example.release.xcconfig */,
-			);
-			path = "Pods-Example";
-			sourceTree = "<group>";
-		};
-		41F1690323E0329C00EE1192 /* Local Podspecs */ = {
-			isa = PBXGroup;
-			children = (
-				41F1690423E0329C00EE1192 /* ASCalendar.podspec.json */,
-			);
-			path = "Local Podspecs";
-			sourceTree = "<group>";
-		};
-		41F1690523E0329C00EE1192 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Headers;
-			sourceTree = "<group>";
-		};
-		41F1690623E0329C00EE1192 /* ASCalendar */ = {
-			isa = PBXGroup;
-			children = (
-				41F1690723E0329C00EE1192 /* LICENSE.md */,
-				41F1690823E0329C00EE1192 /* README.md */,
-				41F1690923E0329C00EE1192 /* ASCalendar */,
-			);
-			path = ASCalendar;
-			sourceTree = "<group>";
-		};
-		41F1690923E0329C00EE1192 /* ASCalendar */ = {
-			isa = PBXGroup;
-			children = (
-				41F1690A23E0329C00EE1192 /* Source */,
-				41F1692723E0329C00EE1192 /* ASCalendar.h */,
-			);
-			path = ASCalendar;
-			sourceTree = "<group>";
-		};
-		41F1690A23E0329C00EE1192 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				41F1690B23E0329C00EE1192 /* Calendar */,
-				41F1691B23E0329C00EE1192 /* Common */,
-				41F1692323E0329C00EE1192 /* Model */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		41F1690B23E0329C00EE1192 /* Calendar */ = {
-			isa = PBXGroup;
-			children = (
-				41F1690C23E0329C00EE1192 /* Style */,
-				41F1690E23E0329C00EE1192 /* Extensions */,
-				41F1691123E0329C00EE1192 /* Manager */,
-				41F1691323E0329C00EE1192 /* Views */,
-				41F1691923E0329C00EE1192 /* Protocols */,
-			);
-			path = Calendar;
-			sourceTree = "<group>";
-		};
-		41F1690C23E0329C00EE1192 /* Style */ = {
-			isa = PBXGroup;
-			children = (
-				41F1690D23E0329C00EE1192 /* DefaultCalendarConfiguration.swift */,
-			);
-			path = Style;
-			sourceTree = "<group>";
-		};
-		41F1690E23E0329C00EE1192 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				41F1690F23E0329C00EE1192 /* View.swift */,
-				41F1691023E0329C00EE1192 /* EnvironmentValues.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		41F1691123E0329C00EE1192 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				41F1691223E0329C00EE1192 /* ASDateManager.swift */,
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		41F1691323E0329C00EE1192 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				41F1691423E0329C00EE1192 /* DatesView.swift */,
-				41F1691523E0329C00EE1192 /* MonthView.swift */,
-				41F1691623E0329C00EE1192 /* Header.swift */,
-				41F1691723E0329C00EE1192 /* DateView.swift */,
-				41F1691823E0329C00EE1192 /* CalendarView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		41F1691923E0329C00EE1192 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				41F1691A23E0329C00EE1192 /* PrimitiveStyleConfiguration.swift */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		41F1691B23E0329C00EE1192 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				41F1691C23E0329C00EE1192 /* UI */,
-				41F1691E23E0329C00EE1192 /* Extensions */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		41F1691C23E0329C00EE1192 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				41F1691D23E0329C00EE1192 /* GridView.swift */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		41F1691E23E0329C00EE1192 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				41F1691F23E0329C00EE1192 /* Date.swift */,
-				41F1692023E0329C00EE1192 /* Collection.swift */,
-				41F1692123E0329C00EE1192 /* Int.swift */,
-				41F1692223E0329C00EE1192 /* CGFloat.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		41F1692323E0329C00EE1192 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				41F1692423E0329C00EE1192 /* Section.swift */,
-				41F1692523E0329C00EE1192 /* DateState.swift */,
-				41F1692623E0329C00EE1192 /* ASDate.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		8AB8507523C279FA00BED14E = {
 			isa = PBXGroup;
 			children = (
-				41F168D823E0329C00EE1192 /* Example */,
 				8AB8508123C279FA00BED14E /* ASCalendar */,
 				8AB8508C23C279FB00BED14E /* ASCalendarTests */,
 				8AB8508023C279FA00BED14E /* Products */,
@@ -611,10 +236,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AB8509023C279FB00BED14E /* ASCalendar.h in Headers */,
-				41F1696323E0329C00EE1192 /* ASCalendar.h in Headers */,
-				41F1694B23E0329C00EE1192 /* Pods-Example-umbrella.h in Headers */,
-				41F1694023E0329C00EE1192 /* ASCalendar-umbrella.h in Headers */,
-				41F1693E23E0329C00EE1192 /* ASCalendar-prefix.pch in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -687,16 +308,6 @@
 			mainGroup = 8AB8507523C279FA00BED14E;
 			productRefGroup = 8AB8508023C279FA00BED14E /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 41F168DA23E0329C00EE1192 /* Products */;
-					ProjectRef = 41F168D923E0329C00EE1192 /* Example.xcodeproj */;
-				},
-				{
-					ProductGroup = 41F168EA23E0329C00EE1192 /* Products */;
-					ProjectRef = 41F168E923E0329C00EE1192 /* Pods.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				8AB8507E23C279FA00BED14E /* ASCalendar */,
@@ -705,58 +316,11 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		41F1692C23E0329C00EE1192 /* Example.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = Example.app;
-			remoteRef = 41F1692B23E0329C00EE1192 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		41F1693023E0329C00EE1192 /* ASCalendar.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ASCalendar.framework;
-			remoteRef = 41F1692F23E0329C00EE1192 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		41F1693223E0329C00EE1192 /* Pods_Example.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Pods_Example.framework;
-			remoteRef = 41F1693123E0329C00EE1192 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		8AB8507D23C279FA00BED14E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41F1696523E0329C00EE1192 /* Podfile.lock in Resources */,
-				41F1694F23E0329C00EE1192 /* LICENSE.md in Resources */,
-				41F1694E23E0329C00EE1192 /* ASCalendar.podspec.json in Resources */,
-				41F1693C23E0329C00EE1192 /* ASCalendar-Info.plist in Resources */,
-				41F1695023E0329C00EE1192 /* README.md in Resources */,
-				41F1694423E0329C00EE1192 /* Pods-Example.debug.xcconfig in Resources */,
-				41F1693423E0329C00EE1192 /* Assets.xcassets in Resources */,
-				41F1693623E0329C00EE1192 /* LaunchScreen.storyboard in Resources */,
-				41F1693523E0329C00EE1192 /* Preview Assets.xcassets in Resources */,
-				41F1694C23E0329C00EE1192 /* Pods-Example.release.xcconfig in Resources */,
-				41F1694123E0329C00EE1192 /* Pods-Example-acknowledgements.plist in Resources */,
-				41F1696423E0329C00EE1192 /* Podfile in Resources */,
-				41F1694323E0329C00EE1192 /* Pods-Example-frameworks-Debug-output-files.xcfilelist in Resources */,
-				41F1694923E0329C00EE1192 /* Pods-Example-frameworks.sh in Resources */,
-				41F1694D23E0329C00EE1192 /* Manifest.lock in Resources */,
-				41F1694723E0329C00EE1192 /* Pods-Example-frameworks-Release-input-files.xcfilelist in Resources */,
-				41F1693D23E0329C00EE1192 /* ASCalendar.xcconfig in Resources */,
-				41F1694623E0329C00EE1192 /* Pods-Example-frameworks-Release-output-files.xcfilelist in Resources */,
-				41F1693A23E0329C00EE1192 /* Info.plist in Resources */,
-				41F1693323E0329C00EE1192 /* Example.xcworkspace in Resources */,
-				41F1694223E0329C00EE1192 /* Pods-Example-Info.plist in Resources */,
-				41F1694A23E0329C00EE1192 /* Pods-Example-acknowledgements.markdown in Resources */,
-				41F1694523E0329C00EE1192 /* Pods-Example-frameworks-Debug-input-files.xcfilelist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -774,48 +338,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41F1695223E0329C00EE1192 /* View.swift in Sources */,
-				41F1696223E0329C00EE1192 /* ASDate.swift in Sources */,
-				41F1695623E0329C00EE1192 /* MonthView.swift in Sources */,
-				41F1695823E0329C00EE1192 /* DateView.swift in Sources */,
-				41F1695B23E0329C00EE1192 /* GridView.swift in Sources */,
-				41F1695723E0329C00EE1192 /* Header.swift in Sources */,
-				41F1696023E0329C00EE1192 /* Section.swift in Sources */,
-				41F1695A23E0329C00EE1192 /* PrimitiveStyleConfiguration.swift in Sources */,
 				CA1738FE23DF6612001FCA95 /* Section.swift in Sources */,
-				41F1695C23E0329C00EE1192 /* Date.swift in Sources */,
 				CA1738F723DF6612001FCA95 /* CalendarView.swift in Sources */,
-				41F1695F23E0329C00EE1192 /* CGFloat.swift in Sources */,
-				41F1693923E0329C00EE1192 /* ContentView.swift in Sources */,
 				CA1738F523DF6612001FCA95 /* Header.swift in Sources */,
-				41F1693723E0329C00EE1192 /* MyCalendarStyle.swift in Sources */,
-				41F1695D23E0329C00EE1192 /* Collection.swift in Sources */,
 				CA1738F323DF6612001FCA95 /* DatesView.swift in Sources */,
-				41F1695323E0329C00EE1192 /* EnvironmentValues.swift in Sources */,
 				CA1738EF23DF6612001FCA95 /* DefaultCalendarConfiguration.swift in Sources */,
-				41F1693F23E0329C00EE1192 /* ASCalendar-dummy.m in Sources */,
-				41F1693B23E0329C00EE1192 /* SceneDelegate.swift in Sources */,
-				41F1695423E0329C00EE1192 /* ASDateManager.swift in Sources */,
 				CA1738FB23DF6612001FCA95 /* Collection.swift in Sources */,
 				CA1738FF23DF6612001FCA95 /* DateState.swift in Sources */,
-				41F1695E23E0329C00EE1192 /* Int.swift in Sources */,
-				41F1695923E0329C00EE1192 /* CalendarView.swift in Sources */,
-				41F1693823E0329C00EE1192 /* AppDelegate.swift in Sources */,
 				CA1738F223DF6612001FCA95 /* ASDateManager.swift in Sources */,
 				CA17390023DF6612001FCA95 /* ASDate.swift in Sources */,
-				41F1695523E0329C00EE1192 /* DatesView.swift in Sources */,
 				CA1738F823DF6612001FCA95 /* PrimitiveStyleConfiguration.swift in Sources */,
 				CA1738FD23DF6612001FCA95 /* CGFloat.swift in Sources */,
 				CA1738F023DF6612001FCA95 /* View.swift in Sources */,
 				CA1738F623DF6612001FCA95 /* DateView.swift in Sources */,
 				CA1738F123DF6612001FCA95 /* EnvironmentValues.swift in Sources */,
 				CA1738F923DF6612001FCA95 /* GridView.swift in Sources */,
-				41F1695123E0329C00EE1192 /* DefaultCalendarConfiguration.swift in Sources */,
-				41F1696123E0329C00EE1192 /* DateState.swift in Sources */,
 				CA1738FC23DF6612001FCA95 /* Int.swift in Sources */,
 				CA1738FA23DF6612001FCA95 /* Date.swift in Sources */,
 				CA1738F423DF6612001FCA95 /* MonthView.swift in Sources */,
-				41F1694823E0329C00EE1192 /* Pods-Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -836,17 +376,6 @@
 			targetProxy = 8AB8508A23C279FB00BED14E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		41F168E123E0329C00EE1192 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				41F168E223E0329C00EE1192 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8AB8509123C279FB00BED14E /* Debug */ = {
